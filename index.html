@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Half life - Fan test</h1>
+        <p id="description">Hello, this a simple test about the series of Half Life</p>
+    </header>
+
+    <form action="" id="survey-form">
+        <div class="form-div">
+            <label for="name-input" id="name-label">Your name</label>
+            <input type="text" id="name" placeholder="Enter your name here" required>
+        </div>
+        <div class="form-div">
+            <label for="" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Enter your email here" required>
+        </div>
+        <div class="form-div">
+            <label for="" id="number-label">Number</label>
+            <input type="number" min="0" max="120" id="number" placeholder="e.g 987876567">
+        </div>
+        <div class="form-div">
+            <select name="favorite-character-selector" id="dropdown">
+                <option value disabled selected>
+                    Choose your favorite character
+                </option>
+                <option value="1">
+                    Gordon Freeman
+                </option>
+                <option value="2">
+                    Alyx Vance
+                </option>
+                <option value="3">
+                    G-Man
+                </option>
+                <option value="4">
+                    Eli Vance
+                </option>
+                <option value="5">
+                    Isaac Kleiner
+                </option>
+                <option value="6">
+                    Gregori
+                </option>
+                <option value="7">
+                    Barney Calhoun
+                </option>
+            </select>
+        </div>
+        <div class="form-div">
+            <p class="option-title">Select your your favorite Half-life Game</p>
+            <div class="option-radio">
+                <input type="radio" name="favoriteGame" id="hl1" value="1">
+                <label for="hl1">
+                    Half-life 1
+                </label>
+            </div>
+            <div class="option-radio">
+                <input type="radio" name="favoriteGame" id="hl2" value="2">
+                <label for="hl2">
+                    Half-life 2
+                </label>
+            </div>
+            <div class="option-radio">
+                <input type="radio" name="favoriteGame" id="hl2-ep1" value="3">
+                <label for="hl2-ep1">
+                    Half-life Episode 1
+                </label>
+            </div>
+            <div class="option-radio">
+                <input type="radio" name="favoriteGame" id="hl2-ep2" value="4">
+                <label for="hl2-ep2">
+                    Half-life Episode 2
+                </label>
+            </div>
+            <div class="option-radio">
+                <input type="radio" name="favoriteGame" id="hla" value="5">
+                <label for="hla">
+                   Half-life Alyx
+                </label>
+            </div>
+        </div>
+        <div class="form-div">
+            <p class="option-title">Do you think Half-life 3 is coming?</p>
+            <label for="checkbox-yes">
+                <input type="checkbox" id="checkbox-yes" value="1">
+                Yes, for sure
+            </label>
+            <label for="checkbox-No">
+                <input type="checkbox" id="checkbox-no" value="2">
+                I don't think so
+            </label>
+        </div>
+        <div class="form-div">
+            <label for="text-area-input" id="text-area-label">Comments</label>
+            <textarea name="ga" id="text-area-input" cols="30" rows="5" ></textarea>
+        </div>
+        <div class="form-div">
+            <button id="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

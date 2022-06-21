@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(https://images6.alphacoders.com/105/thumb-1920-1053011.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+
+body::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(hsl(29, 30%, 0%), hsl(32, 30%, 10%));
+    opacity: 0.6;
+    z-index: -1;
+}
+
+#title, #description{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+#title {
+    background-color: rgb(34, 34, 34);
+}
+
+.option-title {
+    font-size: 18px;
+}
+
+#survey-form {
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* background-color: hsl(28, 80%, 53%); */
+    background-image: linear-gradient(hsl(28, 68%, 47%), hsl(39, 67%, 55%));
+}
+
+#survey-form label {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    text-indent: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.option-radio {
+    display: flex;
+    gap: 10px;
+}
+
+.form-div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-div input {
+    border-radius: 7px; 
+    text-indent: 10px;
+    height: 25px;
+}
+
+#text-area-input {
+    padding: 10px;
+}
+
+#submit {
+    height: 40px;
+    width: 60px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
